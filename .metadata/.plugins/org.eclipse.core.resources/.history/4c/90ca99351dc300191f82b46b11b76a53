@@ -1,0 +1,22 @@
+
+public class GoodClass {
+	
+	// System.out.println("Good Morning");
+	public static void main(String[] args) {
+		
+		// 괄호안에 포함된 어떤 것들을 console에 보여라
+		// 하는 명령문
+		System.out.println("Good Morning");
+		
+		// 괄호안에 아무것도 포함하지 않으면
+		// 그냥 빈줄을 한줄 표시하라
+		System.out.println();
+		System.out.println(30*40);
+		System.out.println(40/20);
+		System.out.println(30-20);
+		System.out.println(40+20);
+		
+		System.out.println("대한" + "민국");
+	}
+	
+}

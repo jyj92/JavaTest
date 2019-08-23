@@ -1,0 +1,27 @@
+package com.biz.var;
+
+public class FloatVar_03 {
+
+	public static void main(String[] args) {
+
+		int intKor = 90;
+		int intEng = 87;
+		int intMath = 67;
+		
+		// %d : 정수형값을 대신하는 ESCAPE 문자열
+		int intSum = intKor + intEng + intMath;
+		float fAvg = intSum / 3.0f;
+		System.out.println("================");
+		System.out.println("성적표");
+		System.out.println("----------------");
+		System.out.printf("국어 : %d\n",intKor);
+		System.out.printf("영어 : %d\n",intEng);
+		System.out.printf("수학 : %d\n",intMath);
+		System.out.println("----------------");
+		System.out.printf("총점 : %d\n",intSum);
+		System.out.printf("평균 : %f\n",fAvg);
+		System.out.println("================");
+		
+	}
+
+}

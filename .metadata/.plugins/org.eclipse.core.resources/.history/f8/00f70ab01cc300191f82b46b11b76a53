@@ -1,0 +1,14 @@
+
+public class GoodClass {
+	
+	// System.out.println("Good Morning");
+	public static void main(String[] args) {
+		System.out.println("Good Morning");
+		System.out.println();
+		System.out.println(30*40);
+		System.out.println(40/20);
+		System.out.println(30-20);
+		System.out.println(40+20);
+	}
+	
+}
